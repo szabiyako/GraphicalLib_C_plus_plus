@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="resources\fonts">
+      <UniqueIdentifier>{5c663f86-b858-41c4-846e-ba7f6dacbc59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="configs">
+      <UniqueIdentifier>{3954d225-637b-4b46-8bba-4f43ec301152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Virtual">
+      <UniqueIdentifier>{d6780d7d-4580-4f5a-92ba-a94688a46945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures">
+      <UniqueIdentifier>{8249344c-07ea-4391-88df-417b7bec3f37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\Main_Menu">
+      <UniqueIdentifier>{1ed62eb9-d75d-46da-9977-46b1c22318ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{56c56d9b-b2a0-4ea5-a7d5-372564283b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General">
+      <UniqueIdentifier>{d642b6ef-c105-4ca3-ba82-8884fe1f634d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Additional">
+      <UniqueIdentifier>{a8562fe2-dd35-44d5-9836-0460047d4b3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Virtual</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Menu.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="DeltaTime.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="FPS.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Manager.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Additional</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scene.h">
+      <Filter>Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Main_Menu.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="DeltaTime.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="FPS.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Manager.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Additional</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\fonts\arial.ttf">
+      <Filter>resources\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="configs\window.ini">
+      <Filter>configs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\textures\Main_Menu\Main_Menu_MegaTexture.png">
+      <Filter>resources\textures\Main_Menu</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
